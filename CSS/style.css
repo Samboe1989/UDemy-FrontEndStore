@@ -1,3 +1,10 @@
 :root {
-  font-family: "Staatliches", cursive;
+  --primaryColor: #9c27b0;
+  --primaryDark: #89119d;
+  --secondaryColor: #ffce00;
+  --secondaryDark: rgb(233, 287, 2);
+  --blanco: #fff;
+  --negro: #000;
+
+  --primaryFont: "Staatliches", cursive;
 }
