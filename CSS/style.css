@@ -76,6 +76,20 @@ h3 {
   margin: 3rem 0;
 }
 
+/** Footer **/
+
+.footer {
+  background-color: var(--primaryDark);
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.footer__texto {
+  text-align: center;
+  font-family: var(--primaryFont);
+  font-size: 2.2rem;
+}
+
 /** Navegacion **/
 
 .navegacion {
@@ -83,13 +97,17 @@ h3 {
   padding: 1rem 0;
   display: flex;
   justify-content: center;
-  gap: 2rem;
 }
 
 .navegacion__enlace {
   font-family: var(--primaryFont);
   color: var(--blanco);
   font-size: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacion__enlace:last-of-type {
+  margin-right: 0;
 }
 
 .navegacion__enlace--active,
